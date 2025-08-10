@@ -1,0 +1,44 @@
+.c3 {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 220px;
+  padding: 14px 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #222;
+  user-select: none;
+  transition: box-shadow 0.3s ease, transform 0.25s ease;
+  cursor: pointer;
+}
+
+.c3:hover {
+  box-shadow: 0 8px 22px rgba(0,0,0,0.25);
+  transform: translateY(-5px);
+}
+
+.c3 .card {
+  width: 100%;
+  height: 160px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+}
+
+.c3 .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  user-select: none;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f28b82; /* soft coral accent */
+  margin-bottom: 14px;
+}
+

@@ -1,0 +1,105 @@
+.cart {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 16px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  user-select: none;
+}
+
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.cart th, .cart td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+.cart th {
+  color: #f28b82; /* soft coral */
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.cart td.td1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cart td.td1 img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.cart input[type="number"] {
+  width: 60px;
+  padding: 6px 8px;
+  border: 1.5px solid #f28b82;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #444;
+  outline-offset: 2px;
+  transition: border-color 0.3s ease;
+}
+
+.cart input[type="number"]:focus {
+  border-color: #d76b67;
+}
+
+.deletebtn {
+  background-color: #dc3544;
+  color: white;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.deletebtn:hover {
+  background-color: #b52a38;
+}
+
+.btns {
+  margin-top: 18px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btns button {
+  background-color: #6bbf59; /* soft green */
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btns button:hover {
+  background-color: #5aa34b;
+  transform: translateY(-1px);
+}
+
+.btns button + button {
+  margin-left: 12px;
+  background-color: #dc3544; /* red */
+}
+
+.btns button + button:hover {
+  background-color: #b52a38;
+}

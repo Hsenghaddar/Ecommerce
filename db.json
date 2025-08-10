@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "electrons",
+      "image": "/assets/smart-belt.png"
+    },
+    {
+      "id": "2",
+      "name": "clothes",
+      "image": "/assets/fashion.png"
+    },
+    {
+      "id": "3",
+      "name": "gym",
+      "image": "/assets/dumbbell.png"
+    },
+    {
+      "id": "4",
+      "name": "home",
+      "image": "/assets/hammer.png"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Gym1",
+      "price": 35,
+      "image": "/assets/dumbbel.png",
+      "category": 3
+    },
+    {
+      "id": "2",
+      "title": "Gym2",
+      "price": 50,
+      "image": "/assets/travel.png",
+      "category": 3
+    },
+    {
+      "id": "3",
+      "title": "c1",
+      "price": 20,
+      "image": "/assets/hawaiian-shirt.png",
+      "category": 2
+    },
+    {
+      "id": "4",
+      "title": "c2",
+      "price": 15,
+      "image": "/assets/clothes.png",
+      "category": 2
+    },
+    {
+      "id": "5",
+      "title": "c3",
+      "price": 55,
+      "image": "/assets/onesie.png",
+      "category": 2
+    },
+    {
+      "id": "6",
+      "title": "e1",
+      "price": 35,
+      "image": "/assets/cpu.png",
+      "category": 1
+    },
+    {
+      "id": "7",
+      "title": "h1",
+      "price": 10,
+      "image": "/assets/item.png",
+      "category": 4
+    }
+  ],
+  "cart": []
+}

@@ -1,0 +1,8 @@
+<div class="c3">
+    <div class="card">
+        <img  [src]="item.image" alt="">
+    </div>
+    <p class="price">{{item.price}}$</p>
+    <app-add-to-cart-btn  (click)="add(item)"></app-add-to-cart-btn>
+</div>
+

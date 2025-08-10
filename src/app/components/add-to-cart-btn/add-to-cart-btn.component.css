@@ -1,0 +1,22 @@
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #f28b82; /* Soft coral */
+  color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #e3736a; /* Slightly deeper coral */
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color: #c95e55; /* Darker coral for click */
+  transform: translateY(0);
+}

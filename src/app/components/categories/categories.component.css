@@ -1,0 +1,38 @@
+.c1 {
+  padding: 16px 20px;
+  max-width: 900px;
+  margin: 16px auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #f28b82; /* soft coral accent */
+  margin-bottom: 12px;
+  user-select: none;
+}
+
+.c2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* card base style */
+.card {
+  background-color: #fff;
+  border: 1.5px solid #f28b82;
+  border-radius: 8px;
+  padding: 12px;
+  flex: 1 1 180px; /* compact width */
+  box-shadow: none;
+  color: #444;
+  cursor: pointer;
+  transition: border-color 0.25s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  border-color: #d76b67; /* slightly darker coral */
+  transform: translateY(-2px);
+}

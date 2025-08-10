@@ -1,0 +1,45 @@
+.c1 {
+  max-width: 900px;
+  margin: 60px auto 40px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  user-select: none;
+  margin-bottom: 24px;
+}
+
+.c2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+/* If you want to style the product card wrapper too, assuming it has class .product-card */
+/* Adjust these to your component internals if needed */
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 220px;
+  padding: 16px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.25s ease;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  transform: translateY(-5px);
+}

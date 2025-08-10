@@ -1,0 +1,24 @@
+<div class="cart">
+    <table>
+        <tr>
+            <th>title</th>
+            <th>price</th>
+            <th>quantity</th>
+            <th>Total</th>
+            <th>Remove</th>
+        </tr>
+        <tr *ngFor="let item of cart">
+            <td class="td1"><img [src]="item.image" alt="">{{item.title}}</td>
+            <td>{{item.price}}</td>
+            <td>
+                <input type="number"  min="1" [value]="item.quantity" #myInput (input)="onValueChange(myInput.value,item)" >
+            </td>
+            <td>{{item.price*item.quantity}}</td>
+            <td><button class="deletebtn" (click)="deleteItem(item)">Delete</button></td>
+        </tr>
+    </table>
+    <div class="btns">
+        <button (click)="save()">Save order</button>
+        <button (click)="clear()" style="background-color: #DC3544;margin-left: 10px;">Clear order</button>
+    </div>
+</div>
